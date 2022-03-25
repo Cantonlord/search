@@ -5,22 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/sytle.css">
+    
     <title>Search</title>
 </head>
 
 <body>
-    <div class="nav">
-        <a href="/CS50w/Project0/index.html">Search</a>
-        <a href="/CS50w/Project0/image_search.html">Images</a>
-        <a href="/CS50w/Project0/advanced_search.html">Advanced Search</a>
-    </div>
-    <div class="search_field">
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </div>
+    <div class="container-fluid">
+        <div class="o3j99 navbar">
+            <!-- navbar -->
+            <!-- <a href="index.html" class="navbar-item" target="_top">Search</a> -->
+            <a href="image_search.html" class="navbar-item" target="_top">Images</a>
+            <a href="advanced_search.html" class="navbar-item" target="_top">Advanced Search</a>
 
+        </div>
+        <div class="o3j99 logo">
+            <!-- logo display -->
+            <div class="k1zIA rSk4se">
+                <img src="static/img/googlelogo_color_272x92dp.png" alt="logo">
+            </div>
+        </div>
+        <div class="o3j99 searchform">
+            <!-- search field -->
+            <form action="https://google.com/search" method="GET" role="search">
+                <div class="A8SBwf">
+                    <div class="searchform-wrapper">
+                        <div class="SDkEP">
+                            <div class="iblpc">
+                                <div class="CcAdNb">
+                                    <span class="QCzoEc z1asCe MZy1Rb">
+                                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <path
+                                                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="a4bIc">
+                                <div class="YacQv"></div>
+                                <input class="gLFyf gsfi" type="text" name="q" maxlength="2048" aria-autocomplete="both"
+                                    aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off"
+                                    autofocus role="combobox" spellcheck="false" title="Search" value
+                                    aria-label="Search">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="FPdoLc lJ9FBc">
+                        <center>
+                            <input class="gNO89b" type="submit" value="Google Search">
+                            <input class="gbqfbb" type="submit" value="I'm Feeling Lucky" style="visibility: inherit;">
+                            <div class="gbqfba gbqfba-hvr" role="button"
+                                style="display: none; font-family: Roboto, arial, sans-serif; overflow: hidden; text-align: center; z-index: 50; height: 34px; position: absolute; left: 290px; margin: 0px; top: 81px; width: 111px;"
+                                aria-label="" tabindex="-1">
+                                <div
+                                    style="left: 0px; position: absolute; right: 0px; white-space: nowrap; top: -159px;">
+                                    <div><span>I'm Feeling Curious</span></div>
+                                    <div><span>I'm Feeling Hungry</span></div>
+                                    <div><span>I'm Feeling Adventurous</span></div>
+                                    <div><span>I'm Feeling Puzzled</span></div>
+                                    <div><span>I'm Feeling Playful</span></div>
+                                    <div><span>I'm Feeling Stellar</span></div>
+                                    <div><span>I'm Feeling Generous</span></div>
+                                    <div><span>I'm Feeling Doodley</span></div>
+                                    <div><span>I'm Feeling Trendy</span></div>
+                                    <div><span>I'm Feeling Artistic</span></div>
+                                    <div><span>I'm Feeling Funny</span></div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
